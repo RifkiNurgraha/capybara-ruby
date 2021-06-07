@@ -1,0 +1,19 @@
+Using the default profile...
+[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[31mF[0m[36m-[0m[36m-[0m[36m-[0m[36m-[0m[36m-[0m[36m-[0m[36m-[0m[36m-[0m[36m-[0m[36m-[0m[36m-[0m[36m-[0m[36m-[0m[36m-[0m[36m-[0m[36m-[0m[36m-[0m
+[36muninitialized constant Library[0m
+
+
+[31m(::) failed steps (::)[0m
+
+[31mexit (SystemExit)[0m
+[31m./features/pages/flight_page.rb:63:in `sleep'[0m
+[31m./features/pages/flight_page.rb:63:in `click_button'[0m
+[31m./features/step_definitions/flight_step.rb:10:in `/^User click "([^"]*)" at flight Page$/'[0m
+[31mfeatures/feature/e2e_flight.feature:28:in `User click "selected flight return" at flight Page'[0m
+
+[31mFailing Scenarios:[0m
+[31mcucumber features/feature/e2e_flight.feature:9[0m[90m # Scenario: Create Transaction Flight[0m
+
+1 scenario ([31m1 failed[0m)
+36 steps ([31m1 failed[0m, [36m17 skipped[0m, [32m18 passed[0m)
+0m21.008s
